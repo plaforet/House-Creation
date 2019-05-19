@@ -8,3 +8,6 @@ The first version of this project adds students from a text file to a master Arr
 
 ## Current Version
 I've been working on reading from and outputting to a CSV file instead. This is my first foray in workign with CSV files and using FileWriter, so bear with me. If you have any suggestions to make this code better, I'm open to constructive criticism!
+
+## TO-DO
+Though I don't use the ArrayList method anymore, I'd like to change it to be a Set to prevent the possibility of duplicates. The dataset I'm using (our district's student management system) shouldn't ever have duplicates, but I'd like to code for it just in case multiple queries lead to some overlap or something. I'd like to implement the same thing for reading the CSV files as well, though again, there's no reason the dataset should have duplicates.
